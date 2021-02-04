@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Projeto_SalesWebMVC.Models;
+using Projeto_SalesWebMVC.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -17,7 +18,7 @@ namespace Projeto_SalesWebMVC.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Salles Web MVC App from C# Course";
+            ViewData["Message"] = "Sales Web MVC App from C# Course";
             ViewData["Professor"] = "Nelio ALves";
 
 
