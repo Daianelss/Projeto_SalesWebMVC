@@ -11,6 +11,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Projeto_SalesWebMVC.Data;
+using Projeto_SalesWebMVC.Services;
 
 namespace Projeto_SalesWebMVC
 {
@@ -41,6 +42,7 @@ namespace Projeto_SalesWebMVC
                         builder.MigrationsAssembly("Projeto_SalesWebMVC")));
 
             services.AddScoped<SeedingService>();
+            services.AddScoped<SellerService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
