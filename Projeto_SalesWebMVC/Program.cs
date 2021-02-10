@@ -22,3 +22,4 @@ namespace Projeto_SalesWebMVC
                 .UseStartup<Startup>();
     }
 }
+
